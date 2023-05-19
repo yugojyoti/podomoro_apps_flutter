@@ -39,6 +39,7 @@ class TimerProvider extends ChangeNotifier {
   void resetTimer() {
     startSec = 0;
     isBreak = false;
+    barValue = 1;
     start = 10;
     startOriginal = 10;
 
