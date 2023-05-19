@@ -230,7 +230,7 @@ class HomeScreen extends StatelessWidget {
                   provider.startTimer();
                 },
                 child: const Icon(
-                  Icons.pause,
+                  Icons.start,
                   color: Colors.white,
                 ),
                 style: ElevatedButton.styleFrom(
